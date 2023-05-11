@@ -16,7 +16,7 @@
             <label for="password">password</label>
             <input type="password" name="password" id="password"><br>
 
-            <input type="submit" value="user_login" class="btn btn-primary">
+            <input type="submit" value="user_login" class="btn btn-danger">
 
 
 
@@ -26,6 +26,7 @@
 
 
         </form>
+        <a href="{% url 'forgot_password' %}">forgot_password</a>
 
 {% endblock %}
 
